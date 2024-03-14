@@ -4,7 +4,7 @@
     --cor-de-fundo: #010101;
     --verde: #6FFF57; 
     --cinza: #787777;
-    --botao-ativo: #000000; 
+    --botao-ativo: #13600397; 
     --botao-inativo: #1dc4f797; 
     --texto-fundo: #0b2043; 
 }
@@ -59,6 +59,10 @@ body{
     border-radius: 40px 40px 0 0;
 }
 
+.ativo{
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
+}
 
 @media screen and (min-width: 768px){
     .botoes{
