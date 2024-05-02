@@ -87,11 +87,30 @@
         text-transform: uppercase;
     }
 
-    .container{
-        font-size: 20px;
+    .contador{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .contador-digito{
+        padding: 0 16px;
         text-align: center;
+        min-height: 100px;
+    }
+
+    .contador-digito-numero{
+        font-size: 80px;
+        margin: 0;
+    }
+
+    .contador-digito-texto{
+        color: var(--branco);
+        font-size: 20px;
+        margin: 0;
     }
     
+
      @media screen and (min-width: 768px){
         .botoes{
             display: flex;
